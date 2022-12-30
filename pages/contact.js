@@ -20,6 +20,7 @@ export default function Contact() {
           maxWidth: '20%',
           height: 'auto',
         }}
+        priority
         />
         <div className="card-body">
           <p>We would be happy to meet or speak to you about your personal headstone,
