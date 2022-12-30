@@ -8,17 +8,17 @@ export default function About() {
                 <p className="card-body">
                     FATHER AND DAUGHTER WORKING TOGETHER CUTTING STONE IN BELFAST
 
-                    In the 1980's, Douglas Coffin was the art director for a magazine, 
+                    In the 1980&apos;s, Douglas Coffin was the art director for a magazine, 
                     and creative director for an ad agency. At 40 years old, his life 
                     changed when he went to a demonstration and seminar about letter 
                     cutting and stone.
                     The Belfast man is now one of a handful in the country doing 
                     something he loves, and his daughter is by his side.
-                    "There are only about 25 letter cutters in the country working 
-                    at the caliber my daughter and I do, so it's a small, small pond 
-                    that we swim in." Coffin went to that seminar 29 years ago and 
+                    &quot;There are only about 25 letter cutters in the country working 
+                    at the caliber my daughter and I do, so it&apos;s a small, small pond 
+                    that we swim in.&quot; Coffin went to that seminar 29 years ago and 
                     found he had the tools and ability to do the job in Belfast. 
-                    His daughter Sigrid saw him working, but never thought she'd be 
+                    His daughter Sigrid saw him working, but never thought she&apos;d be 
                     in his studio too.
                 </p>
                 <p className="card-body">
@@ -31,10 +31,10 @@ export default function About() {
                     Developed by Stockton Springs artist Douglas Coffin. Coffin, one of 
                     the few traditional stone letter cutters in the country, felt that a 
                     simple approach tying all the rangeways and rights of way together 
-                    was best. Coffin states in his proposal that such a "gate" suggests 
-                    "walking from the present into the past, through these ancient 
+                    was best. Coffin states in his proposal that such a &quot;gate&quot; suggests 
+                    &quot;walking from the present into the past, through these ancient 
                     rangeways, through the stone that Belfast is built on, from land 
-                    towards the water that Belfast first thrived on." The large granite 
+                    towards the water that Belfast first thrived on.&quot; The large granite 
                     piece selected for this first installation, purchased through JC Stone 
                     in Washington, was quarried in York.
                 </p>
