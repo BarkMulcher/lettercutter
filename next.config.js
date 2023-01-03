@@ -1,4 +1,4 @@
-const isProd = process.env.NODE_ENV === 'production'
+// const isProd = process.env.NODE_ENV === 'production'
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
@@ -12,7 +12,7 @@ const nextConfig = {
   reactStrictMode: true,
 }
 
-module.exports = nextConfig
+export default nextConfig
 
 // {
   // basePath: process.env.NEXT_PUBLIC_BASE_PATH,
