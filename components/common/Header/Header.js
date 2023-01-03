@@ -9,7 +9,7 @@ function Header({ currentPage, pageChange }) {
         <>
             <Navbar collapseOnSelect expand="lg" variant="dark" id="header" bg="dark">
                 <Container fluid>
-                    <Navbar.Brand id="heading" href="/lettercutter">
+                    <Navbar.Brand id="heading" href="../../lettercutter">
                         Coffin & Daughters Lettercutter
                     </Navbar.Brand>
                     {/* <span id="phrase" className="navbar-text text-info italic">
@@ -21,22 +21,22 @@ function Header({ currentPage, pageChange }) {
                             <Link className="nav-link" href='/'>
                                 Home
                             </Link>
-                            <Link className="nav-link" href="/about">
+                            <Link className="nav-link" href="../../../pages/about">
                                 About
                             </Link>
-                            <Link className="nav-link" href="/process">
+                            <Link className="nav-link" href="../../../pages/process">
                                 Process
                             </Link>
-                            <Link className="nav-link" href="/memorials">
+                            <Link className="nav-link" href="../../../pages/memorials">
                                 Memorials
                             </Link>
-                            <Link className="nav-link" href="/architectural">
+                            <Link className="nav-link" href="../../../pages/architectural">
                                 Architectural
                             </Link>
-                            <Link className="nav-link" href="/news">
+                            <Link className="nav-link" href="../../../pages/news">
                                 News
                             </Link>
-                            <Link className="nav-link" href="/contact">
+                            <Link className="nav-link" href="../../../pages/contact">
                                 Contact
                             </Link>
                             {/* <NavDropdown
