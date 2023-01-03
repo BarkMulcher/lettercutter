@@ -2,11 +2,11 @@ const isProd = process.env.NODE_ENV === 'production'
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  basePath: '/lettercutter',
-  assetPrefix: isProd ? '/lettercutter/' : '/lettercutter/',
+  basePath: "/lettercutter",
+  assetPrefix: "/lettercutter/",
   images: {
     loader: "akamai",
-    path: '',
+    path: "",
     unoptimized: true,
   },
   reactStrictMode: true,
