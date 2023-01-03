@@ -1,7 +1,4 @@
 import Head from 'next/head';
-import Link from 'next/link';
-import Header from '../components/common/Header/Header';
-import Image from 'next/image';
 import { Inter } from '@next/font/google';
 import '../styles/Header.module.css';
 
