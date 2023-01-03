@@ -4,8 +4,8 @@ const isProd = process.env.NODE_ENV === 'production'
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  basePath: "/lettercutter",
-  assetPrefix: isProd ? "/lettercutter" : '',
+  basePath: "/LetterCutter",
+  assetPrefix: isProd ? "https://cdn.statically.io/gh/BarkMulcher/BarkMulcher.github.io/gh-pages/" : '',
   images: {
     loader: "akamai",
     path: "",
