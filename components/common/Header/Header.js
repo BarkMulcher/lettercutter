@@ -4,6 +4,8 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import Link from 'next/link';
+
+
 function Header({ currentPage, pageChange }) {
     return (
         <>
@@ -21,7 +23,7 @@ function Header({ currentPage, pageChange }) {
                             <Link className="nav-link" href='/'>
                                 Home
                             </Link>
-                            <Link className="nav-link" href="../../../pages/about">
+                            <Link className="nav-link" href="../../../pages/About">
                                 About
                             </Link>
                             <Link className="nav-link" href="../../../pages/process">
