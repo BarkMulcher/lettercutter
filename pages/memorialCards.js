@@ -26,12 +26,12 @@ export default function MemorialCards({ memorials }) {
                 className="card-img-top w-100 d-block animalcardimg"
                 src={memorial.imgUrl}
               ></Image>
-              <div className="card-body">
+              {/* <div className="card-body">
                 <h4 className="card-title">{animal.name}</h4>
                 <Link className="btn btn-primary" to={`/animal/${animal._id}`}>
                   Adopt Me
                 </Link>
-              </div>
+              </div> */}
             </div>
           </div>
         ))}
