@@ -5,6 +5,8 @@ const nextConfig = {
   basePath: '/lettercutter',
   assetPrefix: isProd ? '/lettercutter/' : '/lettercutter/',
   images: {
+    loader: "akamai",
+    path: '',
     unoptimized: true,
   },
   reactStrictMode: true,
