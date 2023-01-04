@@ -16,7 +16,7 @@ export default function Home() {
         <link rel="icon" href={`${process.env.FAVICON}/favicon.ico`} />
       </Head>
       <main>
-        <div>Lettercutter</div>
+        <div>Something Interesting In Main Element</div>
       </main>
     </>
   )
