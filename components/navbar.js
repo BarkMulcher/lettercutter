@@ -39,7 +39,7 @@ export default function Navbarb({ currentPage, pageChange }) {
                             <Link className="nav-link" href="/news">
                                 News
                             </Link>
-                            <Link className="nav-link" href="../../../pages/contact">
+                            <Link className="nav-link" href="/contact">
                                 Contact
                             </Link>
                             {/* <NavDropdown
