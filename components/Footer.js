@@ -18,7 +18,7 @@ function Footer() {
       <div id="icons" className="container-fluid text-center text-md-left">
         <div className="row">
           <div className="col-md-4 mt-md-0 mt-3"></div>
-          <div className="col-md-1 mb-md-0 mb-2">
+          {/* <div className="col-md-1 mb-md-0 mb-2">
             <a
               href="https://github.com/BarkMulcher"
               target="_blank"
@@ -30,8 +30,8 @@ function Footer() {
                 alt="github icon"
               ></Image>
             </a>
-          </div>
-          <div className="col-md-1 mb-md-0 mb-2">
+          </div> */}
+          {/* <div className="col-md-1 mb-md-0 mb-2">
             <a
               href="https://nhspca.org/adoptable-animals/?gclid=CjwKCAiA-dCcBhBQEiwAeWidtfZ4rYcSFtCt4QluuhXX4oZZDgLMSluQxVEtrTtXcjrcBHaXKL2cBBoCFssQAvD_BwE"
               target="_blank"
@@ -43,17 +43,17 @@ function Footer() {
                 alt="nhpca logo"
               ></Image>
             </a>
-          </div>
+          </div> */}
           <div className="col-md-1 mb-md-0 mb-2">
             <a
-              href="https://www.pawsitivityservicedogs.com/ukraine?gclid=CjwKCAiA-dCcBhBQEiwAeWidte_xDboQ5kwrKa6wsdWUMF57X7cqWJvNRzgt-9cZJR7Bkme5c-MzeBoCgTsQAvD_BwE"
+              href="https://www.barkmulcher.github.io/LetterCutter"
               target="_blank"
               rel="noreferrer"
             >
               <Image
                 className="footer-icon"
-                // src={require("../img/animal-care.png")}
-                alt="animal care logo"
+                src={require("../public/images/coffin&daughterslettercutters.webp")}
+                alt="coffinanddaughter"
               ></Image>
             </a>
           </div>

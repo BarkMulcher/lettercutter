@@ -1,19 +1,19 @@
-
-import Meta from '../components/Meta'
-import Header from '../components/common/Header/Header';
-import Footer from '../components/common/Footer/Footer';
+import Header from './Header';
+import Navbarb from './navbar';
+import Footer from './Footer';
 import styles from '../styles/Layout.module.css';
 
 const Layout = ({ children }) => {
   return (
     <>
-      <Meta />
       {/* <Header /> */}
       <div>
         <main>
           <Header />
+          <Navbarb />
           {children}
         </main>
+        <Footer />
       </div>
     </>
   )

@@ -2,12 +2,12 @@ import React from "react";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-import NavDropdown from "react-bootstrap/NavDropdown";
-import '../../../styles/Header.module.css';
+// import NavDropdown from "react-bootstrap/NavDropdown";
+import '../styles/Nav.module.css';
 import Link from 'next/link';
 
 
-function Header({ currentPage, pageChange }) {
+export default function Navbarb({ currentPage, pageChange }) {
     return (
         <>
             <Navbar collapseOnSelect expand="lg" variant="dark" id="header" bg="dark">
@@ -24,19 +24,19 @@ function Header({ currentPage, pageChange }) {
                             <Link className="nav-link" href='/'>
                                 Home
                             </Link>
-                            <Link className="nav-link" href="../../../pages/About">
+                            <Link className="nav-link" href="/about">
                                 About
                             </Link>
-                            <Link className="nav-link" href="../../../pages/process">
+                            <Link className="nav-link" href="/process">
                                 Process
                             </Link>
-                            <Link className="nav-link" href="../../../pages/memorials">
+                            <Link className="nav-link" href="/memorials">
                                 Memorials
                             </Link>
-                            <Link className="nav-link" href="../../../pages/architectural">
+                            <Link className="nav-link" href="/architectural">
                                 Architectural
                             </Link>
-                            <Link className="nav-link" href="../../../pages/news">
+                            <Link className="nav-link" href="/news">
                                 News
                             </Link>
                             <Link className="nav-link" href="../../../pages/contact">
@@ -85,4 +85,3 @@ function Header({ currentPage, pageChange }) {
     );
 }
 
-export default Header;

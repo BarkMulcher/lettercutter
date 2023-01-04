@@ -11,7 +11,7 @@ export default function Adopt() {
   return (
     <>
       <div className="shadow-lg card bg-light mb-3">
-        <h1 className="card-header">Adopt Us</h1>
+        <h1 className="card-header">Memorials header</h1>
         <p className="card-body">
             Memorials here
         </p>
