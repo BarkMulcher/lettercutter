@@ -52,7 +52,7 @@ function Footer() {
             >
               <Image
                 className="footer-icon"
-                src={require("../public/images/coffin&daughterslettercutters.webp")}
+                src={require("../public/images/headerImg.webp")}
                 alt="coffinanddaughter"
               ></Image>
             </a>

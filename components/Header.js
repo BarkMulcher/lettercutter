@@ -6,7 +6,7 @@ export default function Header() {
         <div>
     <Image
                 className="header-icon"
-                src={require("../public/images/coffin&daughterslettercutters.webp")}
+                src={require("../public/images/headerImg.webp")}
                 alt="coffinanddaughter"
               ></Image>
         </div>

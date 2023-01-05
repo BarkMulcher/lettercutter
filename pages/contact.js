@@ -1,7 +1,7 @@
 import React from "react";
 import { Button } from "react-bootstrap";
 import Image from 'next/image';
-import contactImg from '../public/contactImg.webp';
+import contactImg from '../public/images/contactImg.webp';
 
 export default function Contact() {
   return (
