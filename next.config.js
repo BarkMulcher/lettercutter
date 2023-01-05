@@ -7,7 +7,7 @@ const nextConfig = {
   basePath: "/LetterCutter",
   // this is important:
     // changes to this returned the site to showing readme as the page
-  assetPrefix: isProd ? "https://BarkMulcher.github.io/LetterCutter/gh-pages" : '',
+  assetPrefix: isProd ? "https://BarkMulcher.github.io/LetterCutter" : '',
   images: {
     loader: "akamai",
     path: "",
