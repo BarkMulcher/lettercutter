@@ -26,3 +26,11 @@ export default function Home() {
     </>
   )
 }
+
+export const getStaticProps = async (context) => {
+  return {
+    // data added inside props will be
+    // received by page component as `props`
+    props: {},
+    };
+}
