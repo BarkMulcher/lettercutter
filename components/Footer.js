@@ -46,15 +46,14 @@ function Footer() {
           </div> */}
           <div className="col-md-1 mb-md-0 mb-2">
             <a
-              href="https://barkmulcher.github.io/LetterCutter"
+              href="https://barkmulcher.github.io/lettercutter"
               target="_blank"
               rel="noreferrer"
-            >
-              <Image
-                className="footer-icon"
-                src={require("../public/images/headerImg.webp")}
-                alt="coffinanddaughter"
-              ></Image>
+            ><Image
+              className="footer-icon"
+              src={require("../public/images/headerImg.webp")}
+              alt="coffinanddaughter"
+            ></Image>
             </a>
           </div>
         </div>

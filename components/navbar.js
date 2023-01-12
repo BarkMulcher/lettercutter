@@ -12,7 +12,7 @@ export default function Navbarb({ currentPage, pageChange }) {
         <>
             <Navbar collapseOnSelect expand="lg" variant="dark" id="header" bg="dark">
                 <Container fluid>
-                    <Navbar.Brand id="heading" href="../../LetterCutter">
+                    <Navbar.Brand id="heading" href="../../lettercutter">
                         Coffin & Daughters Lettercutter
                     </Navbar.Brand>
                     {/* <span id="phrase" className="navbar-text text-info italic">
