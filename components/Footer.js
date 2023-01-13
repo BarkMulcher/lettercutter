@@ -1,18 +1,9 @@
 import React from "react";
 import Image from 'next/image';
 
-const footerStyle = {
-  clear: "both",
-  marginTop: "80%",
-  marginBottom: "0%",
-  position: "sticky",
-  display: "none",
-};
-
 function Footer() {
   return (
     <footer
-      style={{ footerStyle }}
       className="page-footer font-small blue pt-4"
     >
       <div id="icons" className="container-fluid text-center text-md-left">
@@ -44,7 +35,7 @@ function Footer() {
               ></Image>
             </a>
           </div> */}
-          <div className="col-md-1 mb-md-0 mb-2">
+          <div className="col align-self-center">
             <a
               href="https://barkmulcher.github.io/lettercutter"
             ><Image
@@ -53,11 +44,11 @@ function Footer() {
               alt="coffinanddaughter"
             ></Image>
             </a>
+            <div className="italic footer-copyright">© 2022 Copyright</div>
           </div>
         </div>
       </div>
 
-      <div className="italic footer-copyright">© 2022 Copyright</div>
     </footer>
   );
 }

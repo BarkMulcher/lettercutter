@@ -100,6 +100,18 @@ a {
   text-decoration: none;
 }
 
+.footer-copyright {
+  color: gray;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  margin-bottom: 0;
+  float: none;
+}
+
+.italic {
+  margin-right: 5%;
+  font-style: italic;
+}
+
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
