@@ -1,7 +1,7 @@
 import React from "react";
 import Image from 'next/image';
 
-function Footer() {
+export default function Footer() {
   return (
     <footer
       className="page-footer font-small blue pt-4"
@@ -52,5 +52,3 @@ function Footer() {
     </footer>
   );
 }
-
-export default Footer;
