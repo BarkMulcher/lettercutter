@@ -3,7 +3,7 @@ const isProd = process.env.NODE_ENV === 'production'
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   // basePath needs to change between vercel & GH deployments?
-  basePath: "",
+  basePath: "/lettercutter",
   // this is important:
     // changes to this returned the site to showing readme as the page
   assetPrefix: isProd ? "https://BarkMulcher.github.io/lettercutter" : '',
